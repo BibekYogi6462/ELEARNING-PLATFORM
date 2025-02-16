@@ -1,0 +1,8 @@
+
+.playlists .box-container{
+display: grid;
+  grid-template-columns: repeat(auto-fit,50rem);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}

@@ -1,0 +1,186 @@
+/* General Styling */
+body {
+    background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+}
+
+.project-details {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-details h1.heading {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Details Container */
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Instructor Info */
+.instructor-info {
+    flex: 1 1 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.instructor-info img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 15px;
+    border: 3px solid #ddd; /* Optional border around the image */
+}
+
+.instructor-info h3 {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.instructor-info p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 2px 0;
+}
+
+/* Playlist Info */
+.playlist-info {
+    flex: 1 1 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.playlist-info img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.playlist-info h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.playlist-info p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.actions .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.actions .btn.edit {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.actions .btn.edit:hover {
+    background-color: #0056b3;
+}
+
+.actions .btn.delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.actions .btn.delete:hover {
+    background-color: #b02a37;
+}
+
+/* Empty Message */
+.project-details .empty {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .details-container {
+        flex-direction: column;
+    }
+
+    .instructor-info,
+    .playlist-info {
+        flex: 1 1 100%;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.edit-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.edit-form input, .edit-form textarea, .edit-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.edit-form button:hover {
+    background-color: #0056b3;
+}
