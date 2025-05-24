@@ -7,5 +7,5 @@ GuruShishya is a free, web-based e-learning platform designed to connect instruc
 ✅ Tools & Libraries: SweetAlert, Boxicons
 
 You can read proper document from above repository.
+![Home Page](./SCREENSHOTS/1.png)
 
-Proud to have built this project, refining my web development skills and making education accessible to everyone!
