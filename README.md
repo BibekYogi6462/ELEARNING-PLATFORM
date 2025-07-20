@@ -1,7 +1,7 @@
 ﻿# ELEARNING-PLATFORM
 GuruShishya is a free, web-based e-learning platform designed to connect instructors and learners in a structured online environment. It facilitates course management, student engagement, and interactive learning experiences, ensuring that everyone can access quality education. 
 
-You can test this application by cloning it:
+You can test this application by cloning the repo and importing sql file:
 Email: learner@gmail.com
 Password: learner
 
